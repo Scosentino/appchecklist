@@ -133,7 +133,7 @@ textarea.inp-text{height:152px;min-height:50px;line-height:50px;padding-top:15px
 @media (max-width: 870px){.btn span{height:40px;line-height:40px;font-size:14px}
 }@media (max-width: 600px){.btn span{font-size:12px}
 }html{height:100%}
-body{position:relative;background:#e3d3b8 url("../img/bg.jpg") no-repeat 50% 0 fixed;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;color:#333;min-height:100%;}
+body{position:relative;background:#003366 url("../img/bg.jpg") no-repeat 50% 0 fixed;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;color:#333;min-height:100%;}
 .ie7 body,.ie8 body{height:100%;background-image:none;overflow:hidden}
 @media (max-width: 870px){body{margin:0 10px 10px}
 }/*
