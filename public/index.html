@@ -36,16 +36,23 @@
 	
 <div class="mc-field-group">
 	<label for="mce-EMAIL"></label>
-	<input placeholder="Enter your email here" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+	<input placeholder="Enter your email here" type="email" value="" name="EMAIL" class="required email bigger" id="mce-EMAIL">
+	<input placeholder="Enter your email here" type="email" value="" name="EMAIL" class="required email big">
+	<input placeholder="Email" type="email" value="" name="EMAIL" class="required email small">
+
 </div>
 <div class="mc-field-group">
 	<label for="mce-FNAME"></label>
-	<input placeholder="Enter your First Name here" type="text" value="" name="FNAME" class="large" id="mce-FNAME">
+	<input placeholder="Enter your First Name here" type="text" value="" name="FNAME" class="bigger" id="mce-FNAME">
+	<input placeholder="Enter your First Name here" type="text" value="" name="FNAME" class="big">
 	<input placeholder="First Name" type="text" value="" name="FNAME" class="small">
 </div>
 <div class="mc-field-group">
 	<label for="mce-LNAME"></label>
-	<input placeholder="Enter your Last Name here" type="text" value="" name="LNAME" class="" id="mce-LNAME">
+	<input placeholder="Enter your Last Name here" type="text" value="" name="LNAME" class="bigger" id="mce-LNAME">
+	<input placeholder="Enter your Last Name here" type="text" value="" name="LNAME" class="big">
+	<input placeholder="Last Name" type="text" value="" name="LNAME" class="small">
+
 </div>
 	<div id="mce-responses" class="clear">
 		<div class="response" id="mce-error-response" style="display:none"></div>
@@ -53,7 +60,10 @@
 	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_19568a6bf2ce9d52a927d4c55_ba5512ae8e" tabindex="-1" value=""></div>
 	    <div class="clear">
-	    	<input type="submit" value="Click Here To Receive Early Access" name="subscribe" id="mc-embedded-subscribe" class="button">
+	    	<input type="submit" value="Click Here To Receive Early Access" name="subscribe" id="mc-embedded-subscribe" class="button bigger">
+	    	<input type="submit" value="Click Here To Receive Early Access" name="subscribe" class="button big">
+	    	<input type="submit" value="Receive Early Access" name="subscribe" class="button small">
+
 	    </div>
     </div>
 </form>
@@ -137,56 +147,22 @@
 			color: #000000;
 		}
 
-		.large { display: inline-block !important; }
+		.bigger { display: inline-block !important; }
+		.big { display: none !important; }
 		.small { display: none !important; }
 
-		@media (max-width: 600px) {
-			.large { display: none !important; }
- 			.small { display: inline-block !important; }
- 			.mc-field-group { font-size: 19px !important; }
+		@media (max-width: 870px) {
+			.bigger { display: none !important; }
+			.big { display: inline-block !important; }
+ 			.small { display: none !important; }
 		}
 
+		@media (max-width: 600px) {
+			.bigger { display: none !important; }
+			.big { display: none !important; }
+ 			.small { display: inline-block !important; }
+		}
 
-		/* Media Queries */
-		/* Media Queries */
-		/* Media Queries */
-		/* Media Queries */
-
-		@media only screen and (max-device-width: 870px) {
-			#mce_embed_signup .button {
-				font-size: 2.6vw !important;
-				}
-			.mc-field-group {
-				font-size: 19px !important;
-			}
-		}	
-
-		@media only screen and (max-width: 600px) {
-			#mce_embed_signup .button {
-				font-size: 14px !important;	
-			}
-			.mc-field-group {
-				font-size: 16px !important;
-			}
-		}	
-
-		@media only screen and (max-width: 320px) {
-			#mc_embed_signup .button {
-				font-size: 11px !important;
-			}
-			.mc-field-group {
-				font-size: 13px !important;
-			}
-		}		
-
-
-
-
-
-		/* Media Queries */
-		/* Media Queries */
-		/* Media Queries */
-		/* Media Queries */
 		</style>
 
 

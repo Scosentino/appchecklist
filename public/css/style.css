@@ -81,9 +81,9 @@ th{text-align:left}
 .normal{font-style:normal}
 .top{vertical-align:top}
 .middle{vertical-align:middle}
-.big{font-size:14px}
-.bigger{font-size:18px}
-.small{font-size:11px}
+.big{font-size:2.7vw}
+.bigger{font-size:1.86vw}
+.small{font-size:4vw}
 .error,.red{color:#c00}
 .green{color:#678713}
 .grey{color:#999}
@@ -136,34 +136,7 @@ textarea.inp-text{height:152px;min-height:50px;line-height:50px;padding-top:15px
 body{position:relative;background:#003366 url("../img/bg.jpg") no-repeat 50% 0 fixed;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;color:#333;min-height:100%;}
 .ie7 body,.ie8 body{height:100%;background-image:none;overflow:hidden}
 @media (max-width: 870px){body{margin:0 10px 10px}
-}
-		@media (max-width: 780px) {
-			#mce_embed_signup .button {
-				font-size: 17px !important
-				}
-			.mc-field-group {
-				font-size: 19px
-			}
-		}	
-
-		@media only screen and (max-width: 600px) {
-			#mce_embed_signup .button {
-				font-size: 14px !important;	
-			}
-			.mc-field-group {
-				font-size: 16px !important;
-			}
-		}	
-
-		@media only screen and (max-width: 320px) {
-			#mc_embed_signup .button {
-				font-size: 11px !important;
-			}
-			.mc-field-group {
-				font-size: 13px !important;
-			}
-		}	
-/*
+}/*
 
 
 
