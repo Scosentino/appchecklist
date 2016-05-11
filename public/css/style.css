@@ -130,13 +130,17 @@ textarea.inp-text{height:152px;min-height:50px;line-height:50px;padding-top:15px
 .btn span{position:relative;display:block;height:60px;padding:0 10px;font-size:2.6vw;line-height:60px;font-family:$fontSource;text-decoration:none;color:#fff;font-weight:600;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;border-top:1px solid #60B3FF;background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#449DE0),color-stop(100%,#006bcd));background:-webkit-linear-gradient(top,#449DE0 0%,#006bcd 100%);background:-moz-linear-gradient(top,#449DE0 0%,#006bcd 100%);background:-ms-linear-gradient(top,#449DE0 0%,#006bcd 100%);background:-o-linear-gradient(top,#449DE0 0%,#006bcd 100%);background:linear-gradient(top,#449DE0 0%,#006bcd 100%);background-color:#006bcd;}
 .btn span em{font-style:normal;text-decoration:underline}
 .btn:hover span{background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#449DF4),color-stop(100%,#006BE1));background:-webkit-linear-gradient(top,#449DF4 0%,#006BE1 100%);background:-moz-linear-gradient(top,#449DF4 0%,#006BE1 100%);background:-ms-linear-gradient(top,#449DF4 0%,#006BE1 100%);background:-o-linear-gradient(top,#449DF4 0%,#006BE1 100%);background:linear-gradient(top,#449DF4 0%,#006BE1 100%);background-color:#006BE1}
-@media (max-width: 870px){.btn span{height:40px;line-height:40px;font-size:14px}
-}@media (max-width: 600px){.btn span{font-size:2.6vw}
+@media (max-width: 870px){.btn span{height:40px;line-height:40px;font-size:12px}
+}@media (max-width: 600px){.btn span{font-size:12px}
 }html{height:100%}
 body{position:relative;background:#003366 url("../img/bg.jpg") no-repeat 50% 0 fixed;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;color:#333;min-height:100%;}
 .ie7 body,.ie8 body{height:100%;background-image:none;overflow:hidden}
 @media (max-width: 870px){body{margin:0 10px 10px}
+@media (max-width: 780px){#mce_embed_signup .button{font-size: 17px !important}}
 }/*
+
+
+
  *	Base layout
  */
 #main .col-book img{width:100%;height:auto;margin-top:38px;vertical-align:top}
